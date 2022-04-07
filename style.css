@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    display: grid;
+    background-color: darkslategrey;
+    color: azure;
+    height: 100px;
+    align-content: center;
+}
+
+.p1{
+    font-size: 20px;
+}
+p{
+    color: darkgray;
+}
+
+.main-content{
+    width: 100%;
+    display: grid;
+}
+
+.paragraph{
+    width: 50%;
+   margin: 0 auto;
+ 
+}
