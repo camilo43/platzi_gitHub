@@ -1,7 +1,19 @@
-body{
+*{
+    Box-sizing: border-box;
+    Margin: 0;
+    Padding:0
+    }
 
+    Html{
+    Font-size: 62.5%
+    } 
+    
+
+body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+        
 }
 
 h1{
@@ -27,5 +39,11 @@ p{
 .paragraph{
     width: 50%;
    margin: 0 auto;
- 
-}
+ }
+
+ .footer-container{
+     display:grid;
+     justify-items: left;
+     padding: 5rem 0 5rem 35rem;
+     background-color: rgb(206, 206, 206);
+ }
